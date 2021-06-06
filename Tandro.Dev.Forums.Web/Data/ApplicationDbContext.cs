@@ -12,5 +12,7 @@ namespace Tandro.Dev.Forums.Web.Data
             : base(options)
         {
         }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }

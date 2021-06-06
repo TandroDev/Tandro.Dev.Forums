@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/mainstyle.css",
+    "inputFile": "wwwroot/sass/mainstyle.scss",
+    "options": {
+      "sourceMap": true
+    }
+  }
+
+]
