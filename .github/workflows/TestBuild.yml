@@ -29,7 +29,7 @@ jobs:
           dotnet-version: '3.1.100'
           
       - name: Try to build Web
-        run: dotnet build Tandro.Dev.Forums.Web/Tandro.Dev.Forums.Core.csproj
+        run: dotnet build Tandro.Dev.Forums.Web/Tandro.Dev.Forums.Web.csproj
         
       - name: Try to build Core
-        run: dotnet build Tandro.Dev.Forums.Core/Howest.TIHF.Sprinter.Core.csproj
+        run: dotnet build Tandro.Dev.Forums.Core/Tandro.Dev.Forums.Core.csproj
